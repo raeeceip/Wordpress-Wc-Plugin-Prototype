@@ -1,0 +1,19 @@
+{
+	"name": "company/company-plugin",
+	"description": "Chiso Plugin Starter",
+	"type": "project",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "company",
+			"email": "chiboguchisom@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Inc\\": "./inc"
+		}
+	}
+}

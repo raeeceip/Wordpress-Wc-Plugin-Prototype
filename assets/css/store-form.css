@@ -1,0 +1,17 @@
+/* style form with question and input side by side */
+
+#create-store-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+#create-store-form label {
+	margin-right: 10px;
+	float: left;
+}
+#create-store-form input {
+	margin-right: 10px;
+	float: right;
+}
